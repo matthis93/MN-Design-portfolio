@@ -93,7 +93,7 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 6px solid #0cf;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -1793,7 +1793,61 @@ padding-right: 0rem;
 }
 
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
+.portfolio-details {
+    padding-bottom: 5rem;
+    margin-top: -12.5rem;
+}
+
+#portfolio-details .col-lg-8 img {
+  width: 100%;
+}
+
+/*#portfolio-details .embed-responsive iframe {
+  width: 100%;
+  height: 530px;
+}*/
+
+@media screen and (max-width: 768px){
+#portfolio-details .embed-responsive iframe{
+  height: 211px;
+}
+}
+
+@media screen and (max-width: 896px){
+#portfolio-details .embed-responsive iframe{
+  height: 230px;
+}
+}
+
+
+@media screen and (min-width: 768px){
+.portfolio-details {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+
+}
+}
+
+#portfolio-details .col-lg-8 {
+padding: 0;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
+}
+
+#portfolio-details .col-lg-8 h4 {
+color: #ffffff;
+text-align: center;
+}
+
+#portfolio-details .col-sm {
+padding: 0;
 }
 
 @media (min-width: 992px){
@@ -1805,13 +1859,84 @@ padding-right: 0rem;
 }
 
 @media (min-width: 992px){
-.col-lg-4 {
+#portfolio-details .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-    background-color: #229cf7;
-    color: #ffffff;
     padding: 2rem;
 }
+}
+
+#portfolio-details .col-lg-4 { 
+  /*background-color: #229cf7;
+  color: #ffffff;*/
+  /*padding-bottom: 2rem;*/
+}
+
+#portfolio-details .col-lg-4 dt {
+    font-family: "orgon-thin";
+    font-weight: bold;
+    line-height: 2;
+    -webkit-font-smoothing: antialiased;
+}
+
+#portfolio-details .col-lg-4 i {
+    margin-left: 1rem;
+}
+
+#portfolio-details .col-lg-4 i:before {
+    font-size: 32px;
+}
+
+
+.c-portfolio__banner img{
+  display: block;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    height: 30rem;
+}
+
+@media screen and (min-width: 1024px){
+.c-portfolio__banner img{
+    height: 48.75rem;
+}
+}
+
+#portfolio-details .all-logiciels {
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.31em;
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0.3125rem;
+}
+
+#portfolio-details .logiciels {
+    padding-left: 0;
+    background: rgba(255,255,255,0.08);
+    position: relative;
+    width: 20%;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+#portfolio-details .logiciels:before {
+    width: 0%;
+}
+
+#portfolio-details .logiciels:after {
+background: #ffffff!important;
+opacity: 25%;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1842,10 +1967,12 @@ padding-right: 0rem;
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-family: "Orgon-Thin";
+  font-size: 3.75rem;
+  font-weight: 200;
+  margin-bottom: 1rem!important;
   padding-bottom: 20px;
+  letter-spacing: -.125rem;
   border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
@@ -1861,6 +1988,7 @@ padding-right: 0rem;
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1872,6 +2000,45 @@ padding-right: 0rem;
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+
+
+@media screen and (min-width: 768px){
+.portfolio-closeup {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+}
+}
+
+.portfolio-closeup{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding-bottom: 5rem;
+}
+
+.portfolio-closeup i:before{
+    font-size: 32px
+}
+
+.portfolio-closeup .col-lg-4{
+  padding: 0;
+}
+
+.portfolio-closeup .col-md-6{
+  padding: 0;
+}
+
+.portfolio-closeup .col-lg-3{
+  padding: 0;
+}
+
+.portfolio-details .col-lg-4{
+  padding: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Counts

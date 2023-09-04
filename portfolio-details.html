@@ -81,7 +81,7 @@
 
   
 
-  <main id="main">
+  <main id="main" style="background-color: #0B1933;">
 
     <!-- ======= Breadcrumbs ======= -->
     <!--<section id="breadcrumbs" class="breadcrumbs">
@@ -100,10 +100,7 @@
     <section class="c-portfolio__banner">
 
   <picture class="c-portfolio__banner-picture">
-    <source srcset="https://fullyillustrated.com/wp-content/uploads/2023/05/Capy-Project-BG.jpg" media="(min-width: 48em)">
-    <source srcset="https://fullyillustrated.com/wp-content/uploads/2023/05/Capy-Project-BG-768x576.jpg" media="(min-width: 30em)">
-    <source srcset="https://fullyillustrated.com/wp-content/uploads/2023/05/Capy-Project-BG-480x600.jpg">
-    <img class="c-portfolio__banner-image" data-object-fit="cover" srcset="" alt="">
+    <img src="assets/img/affiche-starwars.png" alt="">
   </picture>
 
 </section>
@@ -112,15 +109,25 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-4" style="background-color: #000000;">
 
           <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
+            <img src="assets/img/banner-détails-project-SW.png" alt="">
+
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="vidéo-project-item" src="assets/img/film_star-wars.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+              </iframe>
+            </div>
+            <!--<div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/Capy-Project-Image.jpg" alt="">
+                  <img src="assets/img/banner-détails-project-SW.png" alt="">
                 </div>
+                <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="vidéo-project-item" src="assets/img/film_star-wars.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+        </iframe>
+      </div>
 
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/app2.jpg" alt="">
@@ -130,25 +137,46 @@
                   <img src="assets/img/portfolio/app3.jpg" alt="">
                 </div>
 
-              </div>
+              </div>--
               <div class="swiper-pagination"></div>
-            </div>
+            </div>-->
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4" style="background-color: #040505;">
             <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
+              <h3 style="color: #F2CD40;">Capybara Games</h3>
+              
+              <!--<ul>
                 <li><strong>Category</strong>: Web design</li>
                 <li><strong>Client</strong>: ASU Company</li>
                 <li><strong>Project date</strong>: 01 March, 2020</li>
                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
+              </ul>-->
+              <div class="project-type">
+
+                <dt style="color: #F2CD40">CLIENT</dt>
+                <dd style="color: #ffffff; font-size: 1.375rem;">
+                Refonte UX / UI Desktop App</dd>
+
+                 <dt style="color: #F2CD40">PROJET</dt>
+                <dd style="color: #ffffff; font-size: 1.375rem;">
+                  <a href="https://www.capybaragames.com/" style="color: #ffffff;">Capybara Games Website<i class="bi bi-link-45deg"></i></a>
+                </dd>
+
+                <dt style="color: #F2CD40">CATÉGORIE</dt>
+                <dd style="color: #ffffff; font-size: 1.375rem;">
+                UX / UI</dd>
+
+                <dt style="color: #F2CD40">DATE</dt>
+                <dd style="color: #ffffff; font-size: 1.375rem;">
+                05/2020</dd>
+
+              </div>
+                
+                <dt style="color: #F2CD40">Logiciels</dt>
               <div class="all-logiciels" style="padding-inline-start: 0px;">
           
-          <div class="logiciels">
-            <img src="assets/img/xd.png">
-          </div>
+          <div class="all-logiciels">
 
           <div class="logiciels">
             <img src="assets/img/photoshop.png">
@@ -158,15 +186,23 @@
             <img src="assets/img/illustrator.png">
           </div>
 
+          <div class="logiciels">
+            <img src="assets/img/after-effect.png">
+          </div>
+
+          <div class="logiciels">
+            <img src="assets/img/première-pro.png">
+          </div>
+
       </div>
             </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
+          </div>
+          <div class="portfolio-description">
+              <h2 style="color: #F2CD40;">Détails du projet</h2>
+              <p style="color: #ffffff;">
                 Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
               </p>
             </div>
-          </div>
 
         </div>
 
@@ -174,6 +210,230 @@
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+  <div class="section-title">
+          <h3>Portfolio</h3>
+          <h2>Plus de projets</h2>
+        </div>
+  
+        <div class="row">
+
+         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="netflix.html" class="link-details" title="More Details">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/vinatisproject.png" class="img-fluid" alt="">
+                <span class="c-projects__underline" style="background-color: #fff"></span>
+                <span class="c-projects__triangle" style="background-color: #fff"></span>
+                <!--<a href="img/netflix.png" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="netflix.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Netflix desktop</a></h4>
+                <p>Netflix desktop</p>
+              </div>
+            </div>
+          </a>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="netflix.html" class="link-details" title="More Details">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/fransbonhomme.png" class="img-fluid" alt="">
+                <span class="c-projects__underline" style="background-color: #fff"></span>
+                <span class="c-projects__triangle" style="background-color: #fff"></span>
+                <!--<a href="img/vinatisproject.png" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="vinatis.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Vinatis</a></h4>
+                <p>- UX/UI Design</p>
+            </div>
+          </div>
+        </a>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="louisvuitton.html" class="link-details" title="More Details">
+            <div class="portfolio-wrap">
+             <figure>
+                <img src="assets/img/bycnprojectbg.png" class="img-fluid" alt="">
+                <span class="c-projects__underline" style="background-color: #FD6D2A"></span>
+                <span class="c-projects__triangle" style="background-color: #FD6D2A"></span>
+                <!--<a href="img/bannercoaching.png" class="link-preview" data-lightbox="portfolio" data-title="Creation 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="bannercoaching.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">BYCN Grutier Connect</a></h4>
+                <p>- UX/UI Design</p>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="netflix.html" class="link-details" title="More Details">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/vinatisproject.png" class="img-fluid" alt="">
+                <span class="c-projects__underline" style="background-color: #fff"></span>
+                <span class="c-projects__triangle" style="background-color: #fff"></span>
+                <!--<a href="img/netflix.png" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="netflix.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Netflix desktop</a></h4>
+                <p>Netflix desktop</p>
+              </div>
+            </div>
+          </a>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="netflix.html" class="link-details" title="More Details">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/fransbonhomme.png" class="img-fluid" alt="">
+                <span class="c-projects__underline" style="background-color: #fff"></span>
+                <span class="c-projects__triangle" style="background-color: #fff"></span>
+                <!--<a href="img/vinatisproject.png" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="vinatis.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Vinatis</a></h4>
+                <p>- UX/UI Design</p>
+            </div>
+          </div>
+        </a>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="louisvuitton.html" class="link-details" title="More Details">
+            <div class="portfolio-wrap">
+             <figure>
+                <img src="assets/img/bycnprojectbg.png" class="img-fluid" alt="">
+                <span class="c-projects__underline" style="background-color: #FD6D2A"></span>
+                <span class="c-projects__triangle" style="background-color: #FD6D2A"></span>
+                <!--<a href="img/bannercoaching.png" class="link-preview" data-lightbox="portfolio" data-title="Creation 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="bannercoaching.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">BYCN Grutier Connect</a></h4>
+                <p>- UX/UI Design</p>
+              </div>
+            </div>
+          </a>
+          </div>
+
+</section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="c-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <a href="#hero" class="c-navigation__icon2 c-navigation__icon2" title="Fully Illustrated - Home">
+          <!--<img src="img/logoMN.svg" alt="" title="" />-->
+          <br>
+          <svg>
+            <image class="logoMN3" xlink:href="assets/img/logoMN3.svg"></image>
+          </svg>
+        </a>
+              <!--<p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>-->
+              <!--<div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>-->
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Menu</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#skills">skills</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Portfolio</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">UX / UI</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Motion & 3D</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Illustration</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#skills">Games</a></li>
+            </ul>
+          </div>
+
+          <!--<div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>-->
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Contacter moi</h4>
+            <p>Travaillons ensemble sur votre projet afin qu'il se concrétise!</p>
+            <!--<form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>-->
+            <div class="social-links mt-3">
+                <a href="#" class="email"><i class="bi bi-send"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Matthis NHO</span></strong>. All Rights Reserved
+      </div>
+      <!--<div class="credits">
+        All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+        <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>-->
+  </footer><!-- End Footer -->
 
   
 
