@@ -208,7 +208,9 @@ h6 {
 
 @media screen and (max-width: 767px){
 .header-social-links {
-    margin-left: 95px;
+    /*margin-left: 95px;*/
+    position: absolute;
+    right: 56px;
 }
 }
 
@@ -373,6 +375,13 @@ h6 {
 
 .navbar li {
   position: relative;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  /* color: #fff; */
+  display: block;
+  font-size: .875rem;
+  letter-spacing: 1px;
+  /* padding: 0 2.1875rem; */
+  line-height: 2.875rem;
 }
 
 .navbar a,
@@ -525,14 +534,14 @@ h6 {
 
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
-  z-index: 999;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    /* z-index: 999;*/
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -546,24 +555,40 @@ h6 {
   width: 56px;
 }
 
+@media print, screen and (max-width: 1023px) and (max-width: 767px){
+.navbar-mobile ul:before{
+  height: 50px;
+}
+}
+
+@media print, screen and (max-width: 1023px) and (max-width: 1023px){
+.navbar-mobile ul:before {
+    height: 72px;
+}
+}
+
+
+
 .navbar-mobile ul {
   display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
+    position: absolute;
+    top: 78px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* padding: 10px 0; */
+    background-color: #252525;
+    overflow-y: auto;
+    transition: 0.3s;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #151515;
+    font-size: 15px;
+    color: #151515;
+    line-height: 2.875rem;
+    color: #fff;
 }
 
 .navbar-mobile a:hover,
@@ -571,6 +596,8 @@ h6 {
 .navbar-mobile li:hover>a {
   /*color: #151515;
   background-color: #ffc451;*/
+  border-bottom: 0.0625rem solid #0cf;
+    width: 100%;
 
 }
 
@@ -710,7 +737,7 @@ h6 {
 #hero .carousel-content {
     bottom: 0rem;
     /* padding: 0 1.875rem; */
-    padding: 0rem;
+    padding-bottom: 1rem;
     right: 20px;
     font-weight: 200;
     line-height: 1.1;
@@ -895,7 +922,7 @@ h6 {
 
 @media screen and (max-width: 480px){
 #triangle-code {
-    bottom: -62.5rem;
+    bottom: -60rem;
 }
 }
 
@@ -909,7 +936,8 @@ h6 {
     /*border-radius: 50px;*/
     border: 1px solid rgba(255,255,255,0.2);
     transition: 0.5s;
-    margin: 10px;
+    /*margin: 10px;*/
+    margin: 10px 0px 10px 10px;
     color: #fff;
     /*background: #0cf;*/
     letter-spacing: .125rem;
@@ -917,10 +945,17 @@ h6 {
 
 
 #hero .btn-get-started:hover {
-  background: #0cf;
+  /*background: #0cf;*/
+  background: rgba(0,204,255,0.2);
   color: #fff;
-  border: 1px solid rgba(0,204,255);
+  /*border: 1px solid rgba(0,204,255);*/
+  border: 1px solid rgba(0,204,255,0.4);
 
+}
+
+#hero .btn-get-started i{
+  color: #0cf;
+  margin: 0 0.625rem 0 0;
 }
 
 
@@ -1038,6 +1073,7 @@ section {
     text-transform: uppercase;
     font-size: 1rem;
     text-align: center;
+    font-weight: bolder;
 }
 }
 
@@ -1155,6 +1191,34 @@ section {
 
 }
 
+
+#about .btn2-get-started i{
+  color: #0cf;
+  margin: 0 0.625rem 0 0;
+}
+
+#about .btn-get-started i{
+  color: #0cf;
+  margin: 0 0.625rem 0 0;
+}
+
+
+@media print, screen and (max-width: 767px){
+#about .btn-get-started  {
+    border: 1px solid #999;
+    color: #0B0B0B;
+    padding: 8px 60px;
+}
+}
+
+@media print, screen and (max-width: 767px){
+#about .btn2-get-started  {
+    border: 1px solid #999;
+    color: #0B0B0B;
+    margin-left: 10px;
+    
+}
+}
 
 .liste-outils{
     /*padding-left: 3.75rem;*/
@@ -1283,6 +1347,12 @@ section {
   #about .outils:after{
     background: #fff!important;
   }
+}
+
+@media screen and (max-width: 768px){
+#about .col-lg-4 img {
+  margin: 0rem auto 2.5rem;
+}
 }
 
 /*--------------------------------------------------------------
@@ -1462,15 +1532,21 @@ section {
   padding: 60px 0 40px 0;
   padding: 11.875rem 0;
   position: relative;
-  box-shadow: inset 0 150px 150px -50px rgba(0,0,0,0.8);
-  
+  box-shadow: inset 0 150px 150px -50px rgba(0,0,0,0.8); 
 
 }
+
+
 
 #portfolio .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
+}
+
+#portfolio .section-title{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .portfolio  h3 {
@@ -1480,6 +1556,7 @@ section {
     line-height: 1.4;
     color: #0cf;
     padding-bottom: 0px!important;
+    margin: 0px;
 }
 
 #portfolio h2 {
@@ -1545,8 +1622,8 @@ section {
 
     transition: 0.4s;
   transition: all .1.5s ease-in-out;
-    -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /*  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
   -webkit-transition: .1.5s ease-in-out;
   transition: .1.5s ease-in-out;
   /*box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
@@ -1693,6 +1770,44 @@ padding-right: 0rem;
 
 
 }
+
+#portfolio figure{
+    margin: 0 0 0rem;
+}
+
+@media screen and (max-width: 768px){
+#portfolio {
+padding: 60px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+#portfolio .portfolio-item{
+  padding-left: 0px;
+
+}
+}
+
+@media screen and (max-width: 768px){
+#portfolio .portfolio-info{
+  height: 0px!important;
+  padding: 0px 0 0 0!important;
+  position: absolute!important;
+  bottom: 15%!important;
+  left: 2%!important;
+
+}
+}
+
+@media screen and (max-width: 768px){
+#portfolio .btn-get-started{
+  margin-top: 32px;
+  margin-left: 0px;
+}
+}
+
+
+
 
 #portfolio .portfolio-item figure .link-preview,
 #portfolio .portfolio-item figure .link-details {
