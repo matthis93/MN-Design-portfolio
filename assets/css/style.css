@@ -1774,6 +1774,30 @@ section {
   padding-left: 10px;
   padding-right: 0px;
 }
+
+
+
+
+@media screen and (min-width: 768px){
+#portfolio .col-lg-12 .img-fluid2{
+  display: none;
+}
+}
+
+
+@media screen and (max-width: 768px){
+#portfolio .col-lg-12 .img-fluid2 {
+    display: block;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 768px){
+#portfolio .col-lg-12 .img-fluid{
+    display: none;
+}
+}
+
 @media screen and (min-width: 768px){
 #portfolio .portfolio-item figure {
   background: #000;
