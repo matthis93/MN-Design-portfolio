@@ -417,16 +417,27 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   margin: 16px;
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #0cf;
+  
   border-bottom: .0625rem solid #0cf;
+}
+
+.navbar li:hover > a,
+.navbar > .active > a {
+  color: #0cf;
 }
 
 
 
+.navbar li:hover > a:after {
+  width: 100%;
+}
+
+
+.navbar .active a:after{
+  width: 100%;
+}
 
 
 .navbar a:after {
@@ -439,7 +450,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
     left: 50%;
     width: 0;
     transform: translate(-50%, 0);
-    transition: all 110ms ease-in-out;
+    transition: all 120ms ease-in-out;
 }
 
 
