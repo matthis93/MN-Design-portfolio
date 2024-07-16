@@ -877,12 +877,12 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
     margin: 0;
     position: absolute;
     bottom: -30px;
-    left: 64px;
+    /*left: 60px;*/
     text-transform: uppercase;
     transition: opacity 180ms linear;
     transform: rotate(180deg);
     /* transform-origin: left bottom; */
-    /* width: 104%; */
+    width: 120px;
     letter-spacing: .125rem;
     bottom: 124px;
 }
@@ -1668,6 +1668,52 @@ section {
   transition: .1.5s ease-in-out;
   /*box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;*/
+}
+
+
+#portfolio .btn-get-portfolio{
+    font-family: "Orgon-Thin", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 32px;
+    /*border-radius: 50px;*/
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: 0.5s;
+    /*margin: 10px;*/
+    color: #fff;
+    /*background: #0cf;*/
+    letter-spacing: .125rem;
+    /*margin-right: 1rem;*/
+    margin: 0 0 2.1875rem;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    /* right: -29px; */
+    top: 48px;
+    left: 380px;
+
+
+}
+
+#portfolio .btn-get-portfolio:hover {
+  /*background: #fff;*/
+  background: #0cf;
+  color: #fff;
+  border: 1px solid rgba(0,204,255);
+
+}
+
+#portfolio .btn-get-portfolio i {
+    color: #0cf;
+    margin: 0 0.625rem 0 0;
+}
+
+@media (max-width: 932px) {
+    #portfolio .btn-get-portfolio{
+        display: none;
+    }
 }
 
 
