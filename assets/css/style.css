@@ -424,7 +424,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 }
 
 .navbar li:hover > a,
-.navbar > .active > a {
+.navbar > .active:focus > a {
   color: #0cf;
 }
 
@@ -435,7 +435,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 }
 
 
-.navbar .active a:after{
+.navbar .active:focus a:after{
   width: 100%;
 }
 
@@ -450,7 +450,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
     left: 50%;
     width: 0;
     transform: translate(-50%, 0);
-    transition: all 120ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
 
 
