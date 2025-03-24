@@ -787,7 +787,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
     bottom: 3.75rem;
     /* padding: 0 1.875rem; */
     padding: 0rem;
-    right: 13.125rem;
+    right: 11.125rem;
     width: 60%;
 }
 }
@@ -850,6 +850,13 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 
 }
 
+@media screen and (min-width: 1024px){
+.carousel-indicators {
+  top: 46%;
+  right: -200px;
+}
+}
+
 
 
 
@@ -865,8 +872,22 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   /*border-radius: 24px;*/
 }
 
+@media screen and (min-width: 1024px){
+.carousel-indicators [data-bs-target] {
+    width: 96px;
+  height: 96px;
+}
+}
+
 .carousel-indicators img {
   transform: rotate(-90deg);
+}
+
+@media screen and (min-width: 1024px){
+.carousel-indicators img {
+    width: 96px;
+  height: 96px;
+}
 }
 
 .carousel-indicators [data-bs-target] span {
@@ -897,6 +918,15 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
     letter-spacing: .125rem;
     bottom: 124px;
 }
+
+@media screen and (min-width: 1024px){
+.carousel-indicators p {
+  width: 96px;
+  bottom: 104px;
+}
+}
+
+
 
 @media screen and (max-width: 768px){
 .carousel-indicators {
@@ -1704,8 +1734,12 @@ section {
     /* right: -29px; */
     top: 48px;
     left: 380px;
+}
 
-
+@media (min-width: 1024px) {
+    #portfolio .btn-get-portfolio{
+        font-size: 14px;
+    }
 }
 
 #portfolio .btn-get-portfolio:hover {
