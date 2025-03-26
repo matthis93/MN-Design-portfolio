@@ -4757,11 +4757,11 @@ Section menu portfolio Title
 #menuportfolio h5 {
     /* font-family: "orgon-thin"; */
     text-align: right;
-    /*font-size: 1rem;*/
+    font-size: 1rem;
     line-height: 1.4;
     color: #AFAFAF;
     padding-bottom: 0px !important;
-    margin-left: 237px;
+    /*margin-left: 237px;*/
     display: inline-block;
     text-transform: uppercase;
     
@@ -4774,15 +4774,19 @@ Section menu portfolio Title
 
 #menuportfolio .section-title p {
     display: inline-block;
-    margin: 0 0 0 2.5rem;
+    /*margin: 0 0 0 2.5rem;*/
+    margin: 0;
     font-size: 16px;
     line-height: 1.4;
     max-width: 31rem;
     color: #AFAFAF;
-    text-align: left;
+    
     text-transform: none;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
+    font-weight: 200;
+    position: relative;
 }
+
 
 
 
@@ -4840,11 +4844,13 @@ Section menu portfolio catégorie
     margin: 0 0 0 2.5rem;
     font-size: 16px;
     line-height: 1.4;
-    max-width: 41rem;
+    /*max-width: 41rem;*/
+    max-width: 30rem;
     color: #AFAFAF;
     text-align: right;
     text-transform: none;
     margin-right: 0px;
+    font-weight: 200;
 }
 
 .menu-portfolio-item .portfolio-info span {
