@@ -420,13 +420,33 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #0cf;
   
-  border-bottom: .0625rem solid #0cf;
+  /*border-bottom: .0625rem solid #0cf;*/
+}
+/*.navbar a:hover, .navbar .active, .navbar .active:focus {
+        color: #0cf;
+        
+    }
+}*/
+
+.navbar li:hover, .navbar .active, .navbar .active:after {
+        
+        width: 100%;
+    }
 }
 
-.navbar li:hover > a,
-.navbar > .active:focus > a {
+.navbar li:hover > a, .navbar > .active:focus > a {
   color: #0cf;
 }
+
+
+
+
+
+
+
+/*.nav-menu li:hover > a, .nav-menu > .menu-active > a:after {
+    width: 100%;
+}*/
 
 
 
@@ -1112,6 +1132,7 @@ section {
     line-height: 1.4;
     color: #0cf;
     padding-bottom: 0px!important;
+    font-weight: 200;
 
 }
 
@@ -1189,7 +1210,7 @@ section {
 
 #about .btn-get-started {
     font-family: "Orgon-Thin", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -1208,15 +1229,19 @@ section {
 
 #about .btn-get-started:hover {
   /*background: #fff;*/
-  background: #0cf;
+  /*background: #0cf;*/
   color: #fff;
-  border: 1px solid rgba(0,204,255);
+  /*border: 1px solid rgba(0,204,255);*/
+
+  background: rgba(0,204,255,0.2);
+  border: 1px solid rgba(0,204,255,0.4);
+
 
 }
 
 #about .btn2-get-started {
     font-family: "Orgon-Thin", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -1234,9 +1259,12 @@ section {
 
 #about .btn2-get-started:hover {
   /*background: #fff;*/
-  background: #0cf;
+  /*background: #0cf;*/
   color: #fff;
-  border: 1px solid rgba(0,204,255);
+  /*border: 1px solid rgba(0,204,255);*/
+
+  background: rgba(0,204,255,0.2);
+  border: 1px solid rgba(0,204,255,0.4);
 
 }
 
@@ -1760,9 +1788,12 @@ section {
 
 #portfolio .btn-get-portfolio:hover {
   /*background: #fff;*/
-  background: #0cf;
+  /*background: #0cf;*/
   color: #fff;
-  border: 1px solid rgba(0,204,255);
+  /*border: 1px solid rgba(0,204,255);*/
+
+  background: rgba(0,204,255,0.2);
+  border: 1px solid rgba(0,204,255,0.4);
 
 }
 
@@ -1841,7 +1872,7 @@ section {
 
 #portfolio .btn-get-started {
     font-family: "Orgon-Thin", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -2831,7 +2862,7 @@ opacity: 25%;
 
 #skills .btn-get-started {
     font-family: "Orgon-Thin", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -2855,8 +2886,11 @@ opacity: 25%;
   /*background: #0cf;*/
   color: #fff;
   /*border: 1px solid rgba(0,204,255);*/
-  background: rgba(0,204,255);
-    border: 1px solid rgba(0,204,255,0.4);
+  /*background: rgba(0,204,255);*/
+  /*border: 1px solid rgba(0,204,255,0.4);*/
+
+  background: rgba(0,204,255,0.2);
+  border: 1px solid rgba(0,204,255,0.4);
 
 }
 
@@ -3341,8 +3375,10 @@ opacity: 25%;
 
 @media screen and (min-width: 1024px){
 .c-get-in-touch__link:hover .e-button, .c-get-in-touch__link:focus .e-button, .c-get-in-touch__link:active .e-button {
-    background: rgba(0,204,255);
-    border: 1px solid rgba(0,204,255,0.4);
+    /*background: rgba(0,204,255);*/
+    /*border: 1px solid rgba(0,204,255,0.4);*/
+    background: rgba(0,204,255,0.3);
+    border: 1px solid rgba(0,204,255,0.5);
 }
 }
 
@@ -3381,7 +3417,9 @@ opacity: 25%;
 
 @media screen and (min-width: 1024px){
 .c-get-in-touch__link:hover .e-button:after, .c-get-in-touch__link:hover .e-button:before, .c-get-in-touch__link:focus .e-button:after, .c-get-in-touch__link:focus .e-button:before, .c-get-in-touch__link:active .e-button:after, .c-get-in-touch__link:active .e-button:before {
-    background: #0cf;
+    /*background: #0cf;*/
+    background: rgba(0,204,255,0.2);
+    border: 1px solid rgba(0,204,255,0.4);
 }
 }
 
