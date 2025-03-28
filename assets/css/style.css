@@ -4800,6 +4800,13 @@ Section menu portfolio Title
 }
 
 
+@media screen and (max-width: 768px) {
+    #menuportfolio .col-lg-4 {
+        display: none;
+    }
+}
+
+
 
 #menuportfolio h3 {
     /* font-family: "orgon-thin"; */
