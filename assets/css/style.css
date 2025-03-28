@@ -4793,21 +4793,13 @@ Section menu portfolio Title
     }
 }
 
-.c-page__subheading:after {
-    font-family: 'icomoon-2' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #fff;
-    content: '\e900';
-    display: block;
-    margin: .9375rem 0 0;
+@media screen and (min-width: 768px) {
+    #menuportfolio .container .col-lg-8 i{
+        display: none;
+    }
 }
+
+
 
 #menuportfolio h3 {
     /* font-family: "orgon-thin"; */
