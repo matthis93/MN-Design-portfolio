@@ -378,7 +378,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 
 .navbar li {
   position: relative;
-  /*border-bottom: 1px solid rgba(255,255,255,0.1);*/
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   /* color: #fff; */
   display: block;
   font-size: .875rem;
@@ -737,7 +737,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 @media screen and (max-width: 768px){
 #hero .carousel-item img {
   margin-left: -320px;
-  height: 570px;
+  height: 620px;
 }
 }
 
@@ -2007,6 +2007,7 @@ padding: 60px 0 0px 0;
 #portfolio .btn-get-started{
   margin-top: 32px;
   margin-left: 0px;
+  display: none;
 }
 }
 
@@ -4777,6 +4778,35 @@ Section menu portfolio Title
     max-width: 1440px;
     padding-left: 3.75rem;
     padding-right: 3.75rem;
+}
+
+@media screen and (max-width: 768px) {
+    #menuportfolio .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #menuportfolio .container h3{
+        padding-left: 2rem;
+    }
+}
+
+.c-page__subheading:after {
+    font-family: 'icomoon-2' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    content: '\e900';
+    display: block;
+    margin: .9375rem 0 0;
 }
 
 #menuportfolio h3 {
