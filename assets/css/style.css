@@ -5005,6 +5005,7 @@ Section menu portfolio catégorie
 
 
 
+
 #menuportfolio a:hover{
  /*   box-shadow: 2px 1px 3px 1px rgba(0,0,0,0.2);
   transform: scale(1.03);*/
@@ -5227,6 +5228,80 @@ Section menu portfolio catégorie
 
   }
 }
+
+
+
+/*-----------------------------------------------
+Section portfolio catégorie UX/UI DESIGN
+-----------------------------------------------*/
+
+.section-design {
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio .section-design {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        text-align: center;
+    }
+}
+
+#portfolio h5 {
+    text-align: left;
+    color: #fff;
+    margin-left: -0.3125rem;
+    letter-spacing: -.125rem;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+    font-size: 3.75rem;
+    font-weight: 200;
+    display: inline-block;
+    vertical-align: super;
+}
+
+#portfolio h6 {
+    /* font-family: "orgon-thin"; */
+    text-align: right;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #AFAFAF;
+    padding-bottom: 0px !important;
+    /* margin-left: 237px; */
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#portfolio h6 i {
+    color: #0cf;
+    margin-left: 1rem;
+}
+
+#portfolio .section-design p {
+    display: inline-block;
+    /* margin: 0 0 0 2.5rem; */
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 31rem;
+    color: #AFAFAF;
+    text-transform: none;
+    /* margin-right: 10px; */
+    font-weight: 200;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    #portfolio .container .col-lg-8 i {
+        display: none;
+    }
+}
+
+#portfolio .section-design .bi-chevron-down {
+    display: none;
+}
+
+
 
 
 
