@@ -619,7 +619,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-    font-size: 15px;
+    font-size: 16px;
     color: #151515;
     line-height: 2.875rem;
     color: #fff;
@@ -5320,8 +5320,6 @@ Section portfolio catégorie UX/UI DESIGN
 }
 
 
-
-
 @media screen and (max-width: 768px) {
     #portfolio .section-design h6{
       display: none;    }
@@ -5330,6 +5328,28 @@ Section portfolio catégorie UX/UI DESIGN
 @media screen and (max-width: 768px) {
     #portfolio .col-lg-4 {
         display: none;
+    }
+}
+
+.navbar-mobile .c-navigation__item{
+  background-color: #1D1D1D;
+  padding-left: 2rem;
+}
+
+.navbar-mobile .c-navigation__item a{
+  color: #999;
+}
+
+@media print, screen and (max-width: 1023px) {
+    .navbar-mobile .c-navigation__item:before {
+        background: #fff;
+        content: '';
+        height: 2px;
+        left: 32px;
+        margin-top: -2px;
+        position: absolute;
+        top: 50%;
+        width: 2px;
     }
 }
 
