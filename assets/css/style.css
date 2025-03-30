@@ -5258,6 +5258,7 @@ Section portfolio catégorie UX/UI DESIGN
     font-weight: 200;
     display: inline-block;
     vertical-align: super;
+    padding-right: 2rem;
 }
 
 #portfolio h6 {
@@ -5302,6 +5303,35 @@ Section portfolio catégorie UX/UI DESIGN
 }
 
 
+@media screen and (max-width: 768px) {
+    #portfolio h5 {
+        padding-right: 0rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #portfolio .section-design .bi-chevron-down {
+        display: block;
+        color: #ffffff;
+        margin: .9375rem 0 0;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #portfolio .section-design h6{
+      display: none;    }
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio .col-lg-4 {
+        display: none;
+    }
+}
 
 
 
