@@ -1238,10 +1238,11 @@ section {
     font-size: 1rem;
     text-align: center;
     font-weight: bolder;
+    font-weight: 200;
 }
 }
 
-.about .content h2{
+.about .content h1{
   /*font-family: "orgon-thin";*/
     text-align: left;
     color: #fff;
@@ -1250,14 +1251,15 @@ section {
     line-height: 1.1;
     margin-bottom: 1.25rem;
     font-size: 3.75rem;
-    font-weight: 200;
+    font-weight: 200!important;
 }
 
 @media screen and (max-width: 768px){
-#about h2 {
+#about h1 {
     color: #0B0B0B;
     font-size: 1.75rem;
     text-align: center;
+    font-weight: 200;
 }
 }
 
