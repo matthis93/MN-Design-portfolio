@@ -2957,6 +2957,17 @@ opacity: 25%;
     width: 100%;
 }
 
+.logiciels img{
+  transition: 0.4s;
+  transition: all .4s ease-in-out
+
+}
+
+.logiciels img:hover{
+  transform: scale(1.1);
+
+}
+
 .logiciels:before{
     background: #0B0B0B!important;
     content: '';
