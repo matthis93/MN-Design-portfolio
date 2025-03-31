@@ -870,9 +870,18 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 
 @media screen and (min-width: 768px){
 .carousel-background img {
+    /*width: 100%;*/
+
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
 }
 }
+
 
 
 
@@ -4872,6 +4881,21 @@ Section menu portfolio Title
 
 
 
+@media screen and (min-width: 1024px) {
+    #menuportfolio h5 {
+        display: inline-block;
+        font-size: 1rem;
+        float: right;
+        margin: 1.25rem 0 0 0;
+        text-transform: uppercase;
+        margin: 0;
+        position: absolute;
+        bottom: 105rem;
+        right: 4rem;
+    }
+}
+
+
 
 /*-----------------------------------------------
 Section menu portfolio catégorie
@@ -5288,6 +5312,9 @@ Section portfolio catégorie UX/UI DESIGN
     display: inline-block;
     text-transform: uppercase;
 }
+
+
+
 
 #portfolio h6 i {
     color: #0cf;
