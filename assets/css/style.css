@@ -758,6 +758,16 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 }
 
 @media screen and (min-width: 768px){
+#hero .carousel-item img {
+  margin-left: 0px;
+  height: 750px;
+}
+}
+
+
+
+
+@media screen and (min-width: 768px){
 #hero .carousel-container {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.25);
@@ -883,10 +893,22 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 }
 
 
+/*.carousel-indicators {
+    position: absolute;
+    transform: rotate(90deg);
+    list-style: none;
+    left: auto;
+    bottom: 16.75rem;
+    right: -10.75rem;
+    margin-right: 0%;
+    margin-bottom: 0;
+    margin-left: 0%;
+    z-index: 100;
+
+}*/
 
 
-
-.carousel-indicators {
+/*.carousel-indicators {
   position: absolute;
   transform: rotate(90deg);
   list-style: none;
@@ -898,15 +920,28 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   left: auto;
   right: -180px;
 
-}
+}*/
 
-@media screen and (min-width: 1024px) and (max-height: 881px){
+/*@media screen and (min-width: 1024px) and (max-height: 881px){
 .carousel-indicators {
   top: 51%;
   right: -203px;
 }
-}
+}*/
 
+.carousel-indicators{
+  display: block;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style: none;
+    bottom: 3.25rem;
+    right: 3rem;
+    z-index: 100;
+    left: auto;
+    position: absolute;
+    padding: 0;
+}
 
 
 
@@ -914,12 +949,17 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   position: relative;
   width: 120px;
   height: 120px;
-  margin-right: 1px!important;
+  /*margin-right: 1px!important;*/
+  margin-right: 0px!important;
   margin-left: 0px!important;
   text-indent: -0px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  /*border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;*/
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
   /*border-radius: 24px;*/
+  transform: rotate(90deg);
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px){
@@ -927,6 +967,13 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
     width: 90px;
   height: 90px;
 }
+}
+
+@media screen and (min-height: 880px) {
+    .carousel-indicators [data-bs-target] {
+        height: 120px;
+        width: auto;
+    }
 }
 
 .carousel-indicators img {
@@ -935,9 +982,16 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 
 @media screen and (min-width: 1024px){
 .carousel-indicators img {
-    width: 90px;
+  width: 90px;
   height: 90px;
 }
+}
+
+@media screen and (min-height: 880px) {
+    .carousel-indicators img {
+        height: 120px;
+        width: auto;
+    }
 }
 
 .carousel-indicators [data-bs-target] span {
@@ -974,6 +1028,13 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   width: 90px;
   bottom: 96px;
 }
+}
+
+@media screen and (min-height: 880px) {
+    .carousel-content {
+        right: 14rem;
+        width: 62%;
+    }
 }
 
 
@@ -5369,7 +5430,7 @@ Section portfolio catégorie UX/UI DESIGN
 }
 
 @media screen and (max-width: 768px) {
-    #portfolio .col-lg-4 {
+    #portfolio .col-lg-4 h6 {
         display: none;
     }
 }
