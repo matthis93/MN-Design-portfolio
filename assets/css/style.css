@@ -1219,15 +1219,26 @@ section {
     
 }
 
-.about .content h3 {
+/*.about .content h3 {
   /*font-family: "orgon-thin";*/
-    text-align: left;
+    /*text-align: left;
     font-size: 25px;
     line-height: 1.4;
     color: #0cf;
     padding-bottom: 0px!important;
     font-weight: 200;
 
+}*/
+
+.about .content h3{
+  text-align: left;
+  color: #0cf;
+  line-height: 1;
+  margin-bottom: .625rem;
+  padding-bottom: 0px!important;
+  font-weight: 200;
+  /*-webkit-font-smoothing: antialiased;*/
+  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 768px){
@@ -1307,7 +1318,7 @@ section {
 
 
 #about .btn-get-started {
-    font-family: "Orgon-Thin", sans-serif;
+    /*font-family: "Orgon-Thin", sans-serif;*/
     font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1321,6 +1332,9 @@ section {
     /*background: #0cf;*/
     letter-spacing: .125rem;
     margin-right: 1rem;
+    -webkit-font-smoothing: antialiased;
+    width: 18rem;
+    text-align: center;
 
 
 }
@@ -1338,7 +1352,7 @@ section {
 }
 
 #about .btn2-get-started {
-    font-family: "Orgon-Thin", sans-serif;
+    /*font-family: "Orgon-Thin", sans-serif;*/
     font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1352,6 +1366,9 @@ section {
     /*background: #0cf;*/
     letter-spacing: .125rem;
     margin-right: 1rem;
+    -webkit-font-smoothing: antialiased;
+    width: 18rem;
+    text-align: center;
 
 }
 
@@ -1389,6 +1406,8 @@ section {
     padding-right: 2.5rem;*/
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+    width: 20rem;
+    text-align: center;
 
 }
 }
@@ -1401,6 +1420,8 @@ section {
     margin-right: 0px;
     padding-left: 2.75rem;
     padding-right: 2.75rem;
+    width: 20rem;
+    text-align: center;
     
 }
 }
@@ -1764,8 +1785,8 @@ section {
 }
 
 
-.portfolio  h3 {
-    /*font-family: "orgon-thin";*/
+/*.portfolio  h3 {
+    font-family: "orgon-thin";
     text-align: left;
     font-size: 25px;
     line-height: 1.4;
@@ -1773,6 +1794,17 @@ section {
     padding-bottom: 0px!important;
     margin: 0px;
     font-weight: 200;
+}*/
+
+.portfolio h3{
+  text-align: left;
+    color: #0cf;
+    line-height: 1;
+    margin-bottom: .625rem;
+    padding-bottom: 0px !important;
+    font-weight: 200;
+    /* -webkit-font-smoothing: antialiased; */
+    font-size: 1.25rem;
 }
 
 #portfolio h2 {
@@ -1851,7 +1883,7 @@ section {
 
 
 #portfolio .btn-get-portfolio{
-    font-family: "Orgon-Thin", sans-serif;
+    /*font-family: "Orgon-Thin", sans-serif;*/
     font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1872,6 +1904,7 @@ section {
     /* right: -29px; */
     top: 48px;
     /*left: 380px;*/
+    -webkit-font-smoothing: antialiased;
 }
 
 @media (min-width: 1024px) {
@@ -1991,6 +2024,12 @@ section {
     width: 100%;
     text-align: center;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+#portfolio i {
+    color: #0cf;
+    margin: 0 0.625rem 0 0;
 }
 
 #portfolio .btn-get-started:hover {
@@ -2847,6 +2886,7 @@ opacity: 25%;
     color: #0cf;
     padding-bottom: 0px!important;
     font-weight: 200;
+    margin-bottom: .625rem;
     
 }
 
@@ -2854,6 +2894,7 @@ opacity: 25%;
     #skills .section-header h3 {
         font-size: 1.25rem;
         line-height: 1.4;
+        
     }
 }
 
@@ -2989,7 +3030,7 @@ opacity: 25%;
 }
 
 #skills .btn-get-started {
-    font-family: "Orgon-Thin", sans-serif;
+    /*font-family: "Orgon-Thin", sans-serif;*/
     font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
@@ -3007,6 +3048,12 @@ opacity: 25%;
     text-align: center;
     text-decoration: none;
     margin-top: 64px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#skills .btn-get-started  i {
+    color: #0cf;
+    margin: 0 0.625rem 0 0;
 }
 
 #skills .btn-get-started:hover {
