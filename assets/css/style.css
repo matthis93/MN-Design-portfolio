@@ -395,6 +395,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   letter-spacing: 1px;
   /* padding: 0 2.1875rem; */
   line-height: 2.875rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 .navbar a,
@@ -634,11 +635,13 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  /*padding: 10px 20px;*/
     font-size: 16px;
     color: #151515;
     line-height: 2.875rem;
     color: #fff;
+    letter-spacing: 2px;
+    padding: 0 2rem;
 }
 
 .navbar-mobile a:hover,
