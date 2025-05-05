@@ -396,6 +396,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
   /* padding: 0 2.1875rem; */
   line-height: 2.875rem;
   -webkit-font-smoothing: antialiased;
+  font-weight: 200;
 }
 
 .navbar a,
