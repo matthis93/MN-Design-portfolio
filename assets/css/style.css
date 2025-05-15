@@ -388,7 +388,7 @@ p, dt {font-family: "Orgon-Thin", sans-serif;
 
 .navbar li {
   position: relative;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  /*border-bottom: 1px solid rgba(255,255,255,0.1);*/
   /* color: #fff; */
   display: block;
   font-size: .875rem;
@@ -2388,7 +2388,7 @@ padding: 0;
 
 #portfolio-details .col-lg-4 dt {
     /*font-family: "orgon-thin";*/
-    font-weight: bold;
+    font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
@@ -2520,7 +2520,7 @@ opacity: 25%;
 
 .portfolio-details .portfolio-description h2{
     font-size: 1.125rem;
-    font-weight: bold;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
 
