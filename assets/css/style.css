@@ -6322,6 +6322,17 @@ Article Section
     }
 }
 
+
+@media screen and (min-width: 430px) {
+    .c-blog__detail-title {
+        font-size: 2rem!important;
+        font-weight: 600!important;
+    }
+}
+
+
+
+
 .c-blog__detail-title {
     color: #fff;
     /*font-size: 1.875rem;*/
